@@ -1,0 +1,45 @@
+version = project_version
+
+buildscript {
+    repositories {
+        maven {
+            url "$repo2_maven_central_repo_proxy"
+        }
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springboot_version}")
+    }
+}
+
+subprojects {
+    group 'im.toutiao'
+    version "$version"
+
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+
+    sourceCompatibility = 1.8
+
+    jar { task ->
+        baseName = "$task.project.name"
+        version = ''
+    }
+
+    repositories {
+        maven {
+            url "$repo2_maven_central_repo_proxy"
+        }
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:$springcloud_version"
+        }
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = "$gradle_wrapper_version"
+    distributionUrl = "$gradle_wrapper_url"
+}
