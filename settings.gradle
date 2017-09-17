@@ -1,4 +1,6 @@
 rootProject.name = 'toutiao'
 
 include 'toutiao-eureka'
+include 'toutiao-provider'
+include 'toutiao-consumer'
 
