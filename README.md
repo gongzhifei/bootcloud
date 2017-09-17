@@ -14,9 +14,9 @@ $ gradle -v
 $ ./gradlew wrapper --gradle-version=4.1 --distribution-type=bin
 
 ### Building Java Applications
-$ mkdir java-demo
-$ cd java-demo
-$ gradle init --type java-application
-$ ./gradlew build
-$ ./gradlew run
+$ mkdir java-demo <br>
+$ cd java-demo <br>
+$ gradle init --type java-application <br>
+$ ./gradlew build <br>
+$ ./gradlew run <br>
 $ ./gradlew tasks
