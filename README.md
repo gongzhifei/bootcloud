@@ -1,8 +1,8 @@
 # toutiao
 Gradle Project <br>
-###启动所有模块
+### 启动所有模块
 $ ./gradlew bootRun
-###启动某个模块
+### 启动某个模块
 $ ./gradlew :toutiao-eureka:bootRun
 
 ### Install Gradle
