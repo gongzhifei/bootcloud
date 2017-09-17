@@ -1,5 +1,5 @@
 # toutiao
-Gradle Project <br>
+Gradle + Spring Cloud <br>
 ### 启动所有模块
 $ ./gradlew bootRun
 ### 启动某个模块
