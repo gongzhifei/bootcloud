@@ -24,5 +24,8 @@ $ ./gradlew build <br>
 $ ./gradlew run <br>
 $ ./gradlew tasks
 
+### Maven转Gradle
+gradle init wrapper
+
 ### One more thing
 www.toutiao.im
