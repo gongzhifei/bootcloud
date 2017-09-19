@@ -3,4 +3,9 @@ jdk:
     - oraclejdk8
     - openjdk7
 
+before_script:
+    - wget https://github.com/javahongxi/gradle/archive/v4.1.0.tar.gz -o /tmp/gradle.tar.gz
+    - tar -xvf /tmp/gradle.tar.gz
+    - export PATH=$PATH:$PWD/gradle-4.1/bin/
+
 script: gradle -q build
