@@ -39,7 +39,7 @@ subprojects {
     }
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = "$gradle_wrapper_version"
-    distributionUrl = "$gradle_wrapper_url"
-}
+//task wrapper(type: Wrapper) {
+//    gradleVersion = "$gradle_wrapper_version"
+//    distributionUrl = "$gradle_wrapper_url"
+//}
