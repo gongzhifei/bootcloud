@@ -5,7 +5,12 @@ jdk:
 sudo: false
 branches:
   only:
+    - master
     - test
+env:
+  global:
+    - "gradle_wrapper_url=http://services.gradle.org/distributions/gradle-4.1-bin.zip"
+    - "distributionUrl=http://services.gradle.org/distributions/gradle-4.1-bin.zip"
 cache:
   directories:
   - "$HOME/.gradle"
