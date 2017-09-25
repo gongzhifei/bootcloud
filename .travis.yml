@@ -4,6 +4,9 @@ jdk:
     - openjdk7
 
 sudo: false
+branches:
+  only:
+    - test
 cache:
   directories:
   - "$HOME/.gradle"
