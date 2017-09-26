@@ -20,7 +20,7 @@ $ ./gradlew wrapper --gradle-version=4.1 --distribution-type=bin
 $ mkdir java-demo <br>
 $ cd java-demo <br>
 $ gradle init --type java-application <br>
-$ ./gradlew build <br>
+$ ./gradlew build -x test <br>
 $ ./gradlew run <br>
 $ ./gradlew tasks
 
