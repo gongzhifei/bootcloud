@@ -1,9 +1,9 @@
-# toutiao
-Gradle + Spring Cloud <br>
+# redcloud
+Red Spring Cloud <br>
 ### 启动所有模块
 $ ./gradlew bootRun
 ### 启动某个模块
-$ ./gradlew :toutiao-eureka:bootRun
+$ ./gradlew :redcloud-eureka:bootRun
 
 ### Install Gradle
 $ mkdir /opt/gradle <br>

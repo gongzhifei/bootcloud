@@ -1,6 +1,6 @@
-rootProject.name = 'toutiao'
+rootProject.name = 'redcloud'
 
-include 'toutiao-eureka'
-include 'toutiao-provider'
-include 'toutiao-consumer'
+include 'redcloud-eureka'
+include 'redcloud-provider'
+include 'redcloud-consumer'
 
