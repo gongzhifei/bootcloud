@@ -12,5 +12,5 @@ cache:
 before_install:
 - chmod +x gradlew
 script:
-- "./gradlew build -x test"
+- "./gradlew clean build -x test"
 #- "./gradlew :redcloud-eureka:bootRun"
