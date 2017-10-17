@@ -5,11 +5,12 @@ jdk:
 sudo: false
 branches:
   only:
-    - test
+    - master
 cache:
   directories:
   - "$HOME/.gradle"
 before_install:
 - chmod +x gradlew
 script:
-- "./gradlew build"
+- "./gradlew build -x test"
+#- "./gradlew :redcloud-eureka:bootRun"

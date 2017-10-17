@@ -1,5 +1,5 @@
 # redcloud
-Red Spring Cloud <br>
+Red Spring Cloud [![Build Status](https://travis-ci.org/javahongxi/redcloud.svg?branch=master)](https://travis-ci.org/javahongxi/redcloud)
 ### 启动所有模块
 $ ./gradlew bootRun
 ### 启动某个模块
