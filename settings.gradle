@@ -1,6 +1,6 @@
-rootProject.name = 'redcloud'
+rootProject.name = 'bootcloud'
 
-include 'redcloud-eureka'
-include 'redcloud-provider'
-include 'redcloud-consumer'
+include 'bootcloud-eureka'
+include 'bootcloud-provider'
+include 'bootcloud-consumer'
 
