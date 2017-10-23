@@ -1,5 +1,5 @@
 # bootcloud
-Red Spring Cloud [![Build Status](https://travis-ci.org/javahongxi/bootcloud.svg?branch=master)](https://travis-ci.org/javahongxi/bootcloud)
+Boot Spring Cloud [![Build Status](https://travis-ci.org/javahongxi/bootcloud.svg?branch=master)](https://travis-ci.org/javahongxi/bootcloud)
 ### Build
 $ ./gradlew clean build -x test
 ### 启动所有模块
