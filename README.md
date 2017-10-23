@@ -5,7 +5,7 @@ $ ./gradlew clean build -x test
 ### 启动所有模块
 $ ./gradlew bootRun
 ### 启动某个模块
-$ ./gradlew :redcloud-eureka:bootRun
+$ ./gradlew :bootcloud-eureka:bootRun
 
 ### Install Gradle
 $ mkdir /opt/gradle <br>
